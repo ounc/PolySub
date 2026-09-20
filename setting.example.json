@@ -1,0 +1,30 @@
+{
+  "ApiName": "Google",
+  "TargetLanguage": "zh-CN",
+  "TransDirection": "EN_TO_ZH",
+  "AsrSource": "LiveCaptions",
+  "Prompt": "Translate this sentence into natural oral Chinese. Only output translation:",
+  "DeepL": {
+    "ApiKey": "",
+    "ApiUrl": "https://api-free.deepl.com/v2/translate"
+  },
+  "Ollama": {
+    "ApiUrl": "http://127.0.0.1:11434",
+    "ModelName": "qwen2.5:7b"
+  },
+  "OpenAI": {
+    "ApiKey": "",
+    "ApiUrl": "https://api.siliconflow.cn/v1",
+    "ModelName": "Qwen/Qwen2.5-7B-Instruct"
+  },
+  "Overlay": {
+    "FontSize": 16,
+    "Opacity": 88,
+    "DisplaySentences": 2,
+    "Theme": "dark",
+    "ShowLatency": true,
+    "Topmost": true,
+    "CaptionLayout": "ZH_TOP",
+    "AlwaysShowToolbar": false
+  }
+}

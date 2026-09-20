@@ -1,0 +1,31 @@
+# Configuration with user private credentials
+setting.json
+config.json
+
+# Transcripts and local records
+transcripts/
+*.txt
+
+# Logs
+logs/
+*.log
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Model weights (large files, download on demand)
+models/
+.cache/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
